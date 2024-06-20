@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    
+    "moduleResolution": "node",
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts", "src/interfaces.ts", "migrations/20240617143219_add_user_id_to_posts.ts", "migrations/20240617130755_add_user_id_to_posts.ts", "server.tstests/sum.test.ts", "tests/sum.ts"],
+  "exclude": ["node_modules"]
+}
